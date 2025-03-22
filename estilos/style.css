@@ -34,3 +34,11 @@ body, html {
     text-align: center;
     padding: 10px;
 }
+
+#formulario > p {
+    padding: 10px;
+}
+
+input {
+    border: 2px solid var(--cor2);
+}
