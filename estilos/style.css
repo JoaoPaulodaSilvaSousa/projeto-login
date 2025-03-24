@@ -28,6 +28,7 @@ body, html {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    height: 80vh;
 }
 
 #formulario > h1 {
@@ -41,4 +42,13 @@ body, html {
 
 input {
     border: 2px solid var(--cor2);
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.botao {
+    display: block;
+    text-align: center;
 }

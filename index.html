@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=vpn_key" />
-
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
@@ -23,20 +20,16 @@
                     <p>
                         <label for="iemail"></label>
                         
-                        <input type="text" name="email" id="iemail" placeholder="Seu e-mail">
-                        <span class="material-symbols-outlined">Person</span>
+                        <input type="text" name="email" id="iemail" placeholder="Seu e-mail" required>
                     </p>
 
                     <p>
                         <label for="isen"></label>
-                        <input type="text" name="sen" id="isen" placeholder="Sua senha">
-
-                        <span class="material-symbols-outlined">Vpn Key</span>
-
+                        <input type="text" name="sen" id="isen" placeholder="Sua senha" minlength="8" required>
                     </p>
                     <p>
-                        <input type="submit" value="Entrar">
-                        <input type="submit" value="Esqueci a senha 🖂">
+                        <input class="botao" type="submit" value="Entrar">
+                        <input class="botao" type="submit" value="Esqueci a senha 🖂">
                     </p>
                 </form>
             </div>
